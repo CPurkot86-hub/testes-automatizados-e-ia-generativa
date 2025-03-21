@@ -1,5 +1,5 @@
 describe('API Tests for /customers endpoint', () => {
-  const baseUrl = 'http://localhost:3001/customers';
+  const baseUrl = 'http://localhost:3001/customers'
 
   it('should retrieve customers with default parameters', () => {
     cy.request({
